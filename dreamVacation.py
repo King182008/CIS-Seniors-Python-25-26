@@ -9,7 +9,7 @@ location = "Edinburgh"
 cost = 5239
 duration = "2 weeks"
 activities = "Sight seeing, skydiving, and bowling"
-travelBuddies = "Carrera, Kainan, Zayan"
+travelBuddies = "Carrera, Kainan and Zayan"
 
 print("\n\n\n")
 
