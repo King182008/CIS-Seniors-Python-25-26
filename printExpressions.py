@@ -18,3 +18,14 @@ print("Or cast the cast and crew")
 print()
 print(200 + 400)
 print("Good morning," + " my name is Xaiden")
+
+print("My ticket App")
+print("------------")
+
+ticketTotal = 43.50 + 43.50 + 43.50 
+processFee = 2.95 + 2.95 + 2.95 
+venueFee = 3.95 + 3.95 + 3.95 
+
+print("\nMy Subtotal is:")
+print("------------")
+print("$", ticketTotal + processFee + venueFee)
