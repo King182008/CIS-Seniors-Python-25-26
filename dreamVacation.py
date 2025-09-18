@@ -8,7 +8,7 @@ Date: 9/18/2025
 location = "Edinburgh"
 cost = 5239
 duration = "2 weeks"
-activities = "Sight seeing, sky diving, and bowling"
+activities = "Sight seeing, skydiving, and bowling"
 travelBuddies = "Carrera, Kainan, Zayan"
 
 print("\n\n\n")
