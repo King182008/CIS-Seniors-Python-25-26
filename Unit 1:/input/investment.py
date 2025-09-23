@@ -26,19 +26,14 @@ interestRate = int(input("What is the rate of interest? "))
 year = 1
 
 # Convert the interest rate to a decimal
-
 interestRate = interestRate / 100 + 1
 
 # Computations
-#totalInvest = (startingInvestment * interestRate) * numYears
-#startingInvestment = totalInvest
-#print(totalInvest)
-
 count = 0
 while count < numYears:
     if count < numYears:
         totalInvest = (startingInvestment * interestRate)
-        startingInvestment = totalInvest
+        startingInvestment = round(totalInvest)
         print(startingInvestment, "\tYear: ", year)
         count += 1
         year += 1
