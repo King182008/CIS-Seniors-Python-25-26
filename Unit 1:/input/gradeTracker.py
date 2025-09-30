@@ -27,14 +27,12 @@ for count in range(1, studentCount + 1):
     studentNameList.append(studentName)
     studentScore = int(input("What is the student " + str(count) + "'s score? (0 - 100) "))
     studentScoreList.append(studentScore)
+    if studentScoreList[count - 1] >= 70:
+        totalPassed += 1
 
 # Calculations
 totalScore = sum(studentScoreList)
 averageScore = totalScore / studentCount
-
-for count in range(1, studentCount + 1):
-    if studentScoreList[count - 1] > 70:
-        totalPassed += 1
 
 # zip lists together, sort and unzip
 # .zip() - is a function that can put lists together and pair data creating a grouped element
