@@ -33,5 +33,4 @@ def start_game():
             print(f"Congrats! You guessed the number {number_to_guess} in {attempts} attempts.")
             break
 
-if __name__ == "__main__":
-    start_game()
+start_game()
