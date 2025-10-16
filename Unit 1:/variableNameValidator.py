@@ -32,8 +32,9 @@ while True:
     
     firstChar = variableNameToCheck[0]
 
-    if firstChar.isdigit() == True:
+    if firstChar.isdigit():
         print("ERROR: The variable name can not start with a number!") 
+    
     if variableNameToCheck.isidentifier() == True and isPythonKeyword != True:
         print("This is a valid python variable name, Good Job!")
     elif variableNameToCheck.isidentifier() == False and firstChar.isdigit() == False:
