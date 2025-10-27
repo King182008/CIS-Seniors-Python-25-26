@@ -42,7 +42,8 @@ college = [school1, school2, school3]
 # Calcualtions
 applicationCost = 3 * APPLICATION_FEE
 averageTuition = math.ceil(school1[2] + school2[2] + school3[2])
-averageDistance = math.ceil(school1[3] + school2[3] + school3[3])
+averageDistance = math.ceil(school1[3] + school2[3] + school3[3] / 3)
+totalDistance = math.ceil(school1[3] + school2[3] + school3[3])
 
 for school in college:
     if school.acceptanceRate > 50:
@@ -100,3 +101,10 @@ print(f"Most Affordable: ${averageTuition:.2f}")
 print(f"Highest Price: ${highestPrice:.2f}")
 print(f"Lowest Price: ${lowestPrice:.2f}")
 print(f"Differance In Price: ${differenceOfPrice:.2f}")
+
+print("\n")
+print("=" * 50)
+print("Distance & Travel Analysis ")
+print("=" * 50)
+print(f"Average Distance: ${averageDistance:.2f}")
+print(f"Total Distance: ${totalDistance:.2f}")
